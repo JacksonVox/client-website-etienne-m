@@ -3479,9 +3479,9 @@ input, select, textarea {
 		#header nav {
 			height: inherit;
 			line-height: inherit;
-			position: absolute;
-			right: 0;
-			top: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 		}
 
 			#header nav > ul {
