@@ -3556,10 +3556,10 @@ input, select, textarea {
 			}
 
 			#header nav{
-				-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
-				-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
-				-ms-transition: -ms-transform 0.75s ease, opacity 0.75s ease;
-				transition: transform 0.75s ease, opacity 0.75s ease;
+				-moz-transition: -moz-transform 1s ease, opacity 1s ease;
+				-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
+				-ms-transition: -ms-transform 1s ease, opacity 1s ease;
+				transition: transform 1s ease, opacity 1s ease;
 				-moz-transition-delay: 3.5s;
 				-webkit-transition-delay: 3.5s;
 				-ms-transition-delay: 3.5s;
