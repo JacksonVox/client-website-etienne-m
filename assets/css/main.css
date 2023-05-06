@@ -3995,11 +3995,11 @@ input, select, textarea {
 	}
 	UNNECESSARY */
 
-	body.is-mobile.landing #page-wrapper {
+	/* body.is-mobile.landing #page-wrapper {
 		background: none;
-	}
+	} */
 
-	body.is-mobile.landing #banner,
+	/* body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
@@ -4008,7 +4008,7 @@ input, select, textarea {
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
-	}
+	} */
 
 	/* body.is-mobile.landing #footer {
 		background-color: #1d242a;
