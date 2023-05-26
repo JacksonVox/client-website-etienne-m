@@ -408,7 +408,7 @@ input, select, textarea {
 	}
 
 	#simp .simp-controls button {
-		font-size: 130%;
+		font-size: 110%;
 		width: 32px;
 		height: 32px;
 		background: none;
@@ -417,6 +417,7 @@ input, select, textarea {
 		cursor: pointer;
 		border: 0;
 		border-radius: 3px;
+		box-shadow: none;
 	}
 
 	#simp .simp-controls button[disabled] {
@@ -2801,7 +2802,7 @@ input, select, textarea {
 		text-transform: uppercase;
 		white-space: nowrap;
 		overflow: hidden;
-		text-overflow: ellipsis;
+		text-overflow: hidden;
 	}
 
 		input[type="submit"]:hover,
