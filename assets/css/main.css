@@ -307,7 +307,7 @@ input, select, textarea {
 	#posters > .inner {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
-		grid-gap: 0.5em;
+		grid-gap: 0.3em;
 
 	}
 
@@ -3159,7 +3159,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0 ;
+		padding: 5em 0 4em 0 ;
 	}
 
 		.wrapper > .inner {
@@ -3983,7 +3983,7 @@ input, select, textarea {
 	}
 
 	#banner .inner {
-		margin-top: 25em;
+		margin-top: 18em;
 	}
 
 		#banner h2 {
@@ -4002,7 +4002,7 @@ input, select, textarea {
 			position: relative;
 			z-index: 1;
 		}
-
+/* 
 			#banner h2:before, #banner h2:after {
 				-moz-transition: width 0.85s ease;
 				-webkit-transition: width 0.85s ease;
@@ -4028,7 +4028,7 @@ input, select, textarea {
 			#banner h2:after {
 				bottom: 0;
 				right: 0;
-			}
+			} */
 
 		#banner p {
 			letter-spacing: 0.225em;
