@@ -657,11 +657,16 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
+		align-items: center;
 	}
 
 		.row > * {
 			box-sizing: border-box;
+		}
+
+		.row h2 {
+			flex-basis: 100%;
+			text-align: center;
 		}
 
 		.row.gtr-uniform > * > :last-child {
@@ -847,10 +852,6 @@ input, select, textarea {
 			margin-top: 0;
 			margin-left: -1.5em;
 		}
-
-			.row > * {
-				padding: 0 0 0 1.5em;
-			}
 
 			.row.gtr-uniform {
 				margin-top: -1.5em;
