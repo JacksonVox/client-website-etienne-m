@@ -4003,7 +4003,7 @@ input, select, textarea {
 	}
 
 	#banner .inner {
-		margin-top: 18em;
+		margin-top: 12em;
 	}
 
 		#banner h2 {
@@ -4016,6 +4016,8 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			display: inline-block;
+			font-family: 'Cormorant', serif;
+			font-weight: 300;
 			font-size: 1.75em;
 			opacity: 1;
 			padding: 0.35em 1em;
@@ -4051,6 +4053,8 @@ input, select, textarea {
 			} */
 
 		#banner p {
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 200;
 			letter-spacing: 0.225em;
 			text-transform: uppercase;
 		}
