@@ -2516,7 +2516,6 @@ input, select, textarea {
 	ul {
 		list-style: disc;
 		margin: 0 0 2em 0;
-		padding-left: 1em;
 	}
 
 		ul li {
@@ -3156,7 +3155,8 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 5em 0 4em 0 ;
+		margin: 0 6em;
+		padding: 4em 0 4em 0 ;
 	}
 
 		.wrapper > .inner {
@@ -3680,7 +3680,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.wrapper {
-				padding: 3em 2em 1em 2em ;
+				padding: 3em 3.5em 1em 3.5em ;
 			}
 
 		}
@@ -3865,71 +3865,34 @@ input, select, textarea {
 			}
 
 			#header nav #mainNav {
-				flex: 3;
+				flex: 2;
 				text-align: center;
 
 			}
 
 			#header nav > ul {
+				display: flex;
+				flex-wrap: nowrap;
+				justify-content:space-evenly;
 				list-style: none;
 				margin: 0;
-				padding: 0;
 				white-space: nowrap;
 			}
 
 				#header nav > ul > li {
 					display: inline-block;
-					padding: 0;
+					padding: 0 .3em;
 				}
 
 					#header nav > ul > li > a {
 						border: 0;
 						color: #fff;
 						display: block;
+						font-family: 'Monserrat', sans-serif;
+						font-weight: 200;
 						font-size: 0.8em;
 						letter-spacing: 0.225em;
-						padding: 0 1.5em;
 						text-transform: uppercase;
-					}
-
-						#header nav > ul > li > a.menuToggle {
-							outline: 0;
-							position: relative;
-						}
-
-							#header nav > ul > li > a.menuToggle:after {
-								background-image: url("images/bars.svg");
-								background-position: right center;
-								background-repeat: no-repeat;
-								content: '';
-								display: inline-block;
-								height: 3.75em;
-								vertical-align: top;
-								width: 2em;
-							}
-
-							@media screen and (max-width: 736px) {
-
-								#header nav > ul > li > a.menuToggle {
-									padding: 0 1.5em;
-								}
-
-									#header nav > ul > li > a.menuToggle span {
-										display: none;
-									}
-
-							}
-
-						@media screen and (max-width: 736px) {
-
-							#header nav > ul > li > a {
-								padding: 0 0 0 1.5em;
-							}
-
-						}
-
-					#header nav > ul > li:first-child {
-						margin-left: 0;
 					}
 
 		#header.alt {
@@ -3974,9 +3937,19 @@ input, select, textarea {
 			flex-wrap: wrap;
 		}
 
+		#header nav ul {
+			padding: 0 1.5em
+		}
+
 		#header .spacer , #header .icons{
 			display: none;
 		}
+	}
+
+	@media screen and (max-width: 370px){
+		#header nav ul {
+			padding: 0 1em
+		}		
 	}
 		
 /* Banner */
@@ -4296,6 +4269,16 @@ input, select, textarea {
 
 	body.is-mobile #main > header {
 		background-attachment: scroll;
+	}
+
+/* Bio */
+	#bioPic {
+		height: 18em;
+		clip-path: inset(0 round 5px);
+	}
+
+	#bio p {
+		margin: 0 1em;
 	}
 
 /* Footer */
