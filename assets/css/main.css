@@ -4150,7 +4150,7 @@ input, select, textarea {
 		opacity: 1;
 	}
 
-/* CTA */
+/* Contact */
 
 	#contact{
 		background-image: url("C:\Users\Jack\Documents\Clients\2022\20230401EtienneMonsaingeon\site\images\photostudiocouch.jpeg")
@@ -4272,6 +4272,11 @@ input, select, textarea {
 	}
 
 /* Bio */
+
+	#bio div .section-body{
+		max-width: 50em;
+	}
+
 	#bioPic {
 		height: 18em;
 		clip-path: inset(0 round 5px);
@@ -4280,6 +4285,9 @@ input, select, textarea {
 	#bio p {
 		margin: 0 1em;
 	}
+		#bio p span {
+			font-size: .7em;
+		}
 
 /* Footer */
 
