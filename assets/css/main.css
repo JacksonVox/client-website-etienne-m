@@ -4152,11 +4152,14 @@ input, select, textarea {
 
 /* Contact */
 
-	#contact{
-		background-image: url("C:\Users\Jack\Documents\Clients\2022\20230401EtienneMonsaingeon\site\images\photostudiocouch.jpeg")
+	#contact form {
+		max-width: 40em;
+		margin: auto;
 	}
 
-
+		#contact .inner h2 {
+			text-align: center;
+		}
 
 			#contact .inner header p {
 				color: inherit;
@@ -4283,7 +4286,7 @@ input, select, textarea {
 	}
 
 	#bio p {
-		margin: 0 1em;
+		margin: 0 1.3em;
 	}
 		#bio p span {
 			font-size: .7em;
