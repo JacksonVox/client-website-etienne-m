@@ -177,7 +177,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 0.3em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2473,7 +2473,7 @@ input, select, textarea {
 
 		.image.left {
 			float: left;
-			margin: 0 2em 2em 0;
+			margin: 0 1.5em 1em 0;
 			top: 0.25em;
 		}
 
@@ -3156,18 +3156,43 @@ input, select, textarea {
 
 	.wrapper {
 		margin: 0 6em;
-		padding: 4em 0 4em 0 ;
+		padding: 4em 3em 4em 3em;
+	}
+	
+	@media screen and (max-width: 980px) {
+
+		.wrapper {
+			padding: 4em 3em 2em 3em ;
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.wrapper {
+			padding: 3em 3.5em 1em 3.5em ;
+		}
+
+	}
+
+	@media screen and (max-width: 480px) {
+
+		.wrapper {
+			margin: 0 2em;
+			padding: 2em 1.5em 1em 1.5em ;
+		}
+
 	}
 
 		.wrapper > .inner {
-			width: 60em;
+			width: 100%;
 			margin: 0 auto;
 		}
 
 			@media screen and (max-width: 1280px) {
 
 				.wrapper > .inner {
-					width: 90%;
+					width: 100%;
 				}
 
 			}
@@ -3179,6 +3204,7 @@ input, select, textarea {
 				}
 
 			}
+
 
 		.wrapper.alt {
 			padding: 0;
@@ -3669,21 +3695,6 @@ input, select, textarea {
 
 			}
 
-		@media screen and (max-width: 980px) {
-
-			.wrapper {
-				padding: 4em 3em 2em 3em ;
-			}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			.wrapper {
-				padding: 3em 3.5em 1em 3.5em ;
-			}
-
-		}
 
 /* Page Wrapper + Menu */
 
@@ -3886,7 +3897,7 @@ input, select, textarea {
 
 					#header nav > ul > li > a {
 						border: 0;
-						color: #fff;
+						color: #dedede;
 						display: block;
 						font-family: 'Monserrat', sans-serif;
 						font-weight: 200;
@@ -3894,6 +3905,8 @@ input, select, textarea {
 						letter-spacing: 0.225em;
 						text-transform: uppercase;
 					}
+
+						#header nav > ul > li > 
 
 		#header.alt {
 			background: transparent;
@@ -4285,12 +4298,6 @@ input, select, textarea {
 		clip-path: inset(0 round 5px);
 	}
 
-	#bio p {
-		margin: 0 1.3em;
-	}
-		#bio p span {
-			font-size: .7em;
-		}
 
 /* Footer */
 
