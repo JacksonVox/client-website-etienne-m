@@ -3820,12 +3820,15 @@ input, select, textarea {
 
 /* Header */
 
+	#header.alt {
+		background: transparent;
+	}
 	#header {
 		-moz-transition: background-color 0.6s ease;
 		-webkit-transition: background-color 0.6s ease;
 		-ms-transition: background-color 0.6s ease;
 		transition: background-color 0.6s ease;
-		background: #2e3842;
+		background: #000000eb;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3909,9 +3912,6 @@ input, select, textarea {
 
 						#header nav > ul > li > 
 
-		#header.alt {
-			background: transparent;
-		}
 
 			#header.alt h1 {
 				pointer-events: none;
